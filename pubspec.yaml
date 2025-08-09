@@ -41,6 +41,9 @@ dependencies:
   flutter_riverpod: ^2.6.1
   hooks_riverpod: ^2.6.1
   flutter_svg: ^2.2.0
+  card_swiper:
+    path: /Users/mac/flutter_packages/custom_card_swiper
+
 
 dev_dependencies:
   flutter_test:

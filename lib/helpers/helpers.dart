@@ -35,18 +35,16 @@ Widget slideFadeTransition(Animation<double> animation, Widget child) {
 
 // Custom PopEntry implementation
 class CustomPopEntry implements PopEntry {
-  final ValueNotifier<bool> _canPopNotifier;
   final VoidCallback? _onPagePopping;
 
   CustomPopEntry({VoidCallback? onPagePopping})
-    : _canPopNotifier = ValueNotifier<bool>(true),
-      _onPagePopping = onPagePopping;
+    : _onPagePopping = onPagePopping;
 
   @override
-  ValueNotifier<bool> get canPopNotifier => _canPopNotifier;
+  ValueNotifier<bool> get canPopNotifier => ValueNotifier<bool>(true);
 
   @override
-  Future<void> onPopInvokedWithResult(bool didPop, Object? result) async {
+  Future<void> onPopInvokedWithResult(didPop, _) async {
     if (didPop) _onPagePopping?.call();
   }
 

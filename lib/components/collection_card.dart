@@ -7,6 +7,9 @@ import '../models/card_data.dart';
 import '../models/collection_card_transition_data.dart';
 import '../pages/page3.dart';
 
+final kCollectionCardWidth = 370.0;
+const kCollectionCardHeight = 595.0;
+
 class CollectionCard extends StatelessWidget {
   final CardData card;
 
@@ -17,8 +20,8 @@ class CollectionCard extends StatelessWidget {
     final circularBorder = 36.0;
     return Container(
       clipBehavior: Clip.antiAlias,
-      width: 330,
-      height: 575,
+      width: kCollectionCardWidth,
+      height: kCollectionCardHeight,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(circularBorder),
       ),

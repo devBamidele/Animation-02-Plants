@@ -18,6 +18,25 @@ class Page2 extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final overlayCtrl = useState<AnimationController?>(null);
+    final animationController = useAnimationController(
+      duration: const Duration(milliseconds: 50),
+      initialValue: 1.0,
+    );
+
+    final popEntry = useRef(
+      CustomPopEntry(onPagePopping: () => animationController.reverse()),
+    );
+
+    useEffect(() {
+      late ModalRoute<Object?>? modalRoute;
+
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        modalRoute = ModalRoute.of(context);
+        modalRoute?.registerPopEntry(popEntry.value);
+      });
+
+      return () => modalRoute?.unregisterPopEntry(popEntry.value);
+    }, [context]);
 
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -115,7 +134,8 @@ class Page2 extends HookConsumerWidget {
                     ],
                   ),
 
-                  Expanded(
+                  FadeTransition(
+                    opacity: animationController,
                     child: CardStackWidget(
                       collectionCards: userCards[listIndex].collection!,
                     ),
