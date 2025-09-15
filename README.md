@@ -12,12 +12,17 @@ The goal was to bring a high-fidelity Dribbble interaction into Flutter, focusin
 
 ---
 
-## 📸 Preview
-| Original Design (Sam Atmore)   | Flutter Implementation      |  
-|--------------------------------|-----------------------------|  
-| ![Original](demo/original.mp4) | ![Flutter](demo/remade.mp4) |  
+[//]: # ()
+[//]: # (## 📸 Preview)
 
----
+[//]: # (| Original Design &#40;Sam Atmore&#41;   | Flutter Implementation      |  )
+
+[//]: # (|--------------------------------|-----------------------------|  )
+
+[//]: # (| ![Original]&#40;demo/original.mp4&#41; | ![Flutter]&#40;demo/remade.mp4&#41; |  )
+
+[//]: # ()
+[//]: # (---)
 
 ## 🚀 Getting Started
 
@@ -28,6 +33,7 @@ git clone https://github.com/yourusername/animation_02_plants.git
 cd animation_02_plants
 flutter pub get
 flutter run
+```
 
 ## 🛠️ Built With
 - Flutter
