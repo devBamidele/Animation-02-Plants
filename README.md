@@ -1,16 +1,46 @@
-# animation_02_plants
+# 🌱 Flutter Interaction Animation – Plants Concept
 
-A new Flutter project.
+This project is a **Flutter recreation** of a motion design by [Sam Atmore (Kiwi Sam)](https://dribbble.com/KiwiSam).  
+The goal was to bring a high-fidelity Dribbble interaction into Flutter, focusing on **fluid animations, custom transitions, and smooth user interaction**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Project Overview
+- Recreated the original concept with Flutter.
+- Focused on **page transitions, motion timing, and natural interactions**.
+- Learned to balance performance with design fidelity in advanced animations.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Preview
+| Original Design (Sam Atmore)   | Flutter Implementation      |  
+|--------------------------------|-----------------------------|  
+| ![Original](demo/original.mp4) | ![Flutter](demo/remade.mp4) |  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+Clone the repository and run locally:
+
+```bash
+git clone https://github.com/yourusername/animation_02_plants.git
+cd animation_02_plants
+flutter pub get
+flutter run
+
+## 🛠️ Built With
+- Flutter
+- Dart
+
+---
+
+## 💡 Inspiration
+This project was inspired by [Sam Atmore’s](https://dribbble.com/KiwiSam) Dribbble motion design.  
+It was built as an experiment to explore high-fidelity interactions and animation techniques in Flutter.
+
+---
+
+## 📜 License
+This project is open-source under the MIT License.  
+Original design credit: Sam Atmore (Kiwi Sam).
