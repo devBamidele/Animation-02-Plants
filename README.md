@@ -12,17 +12,13 @@ The goal was to bring a high-fidelity Dribbble interaction into Flutter, focusin
 
 ---
 
-[//]: # ()
-[//]: # (## 📸 Preview)
+## 📸 Preview
 
-[//]: # (| Original Design &#40;Sam Atmore&#41;   | Flutter Implementation      |  )
+| Original Design (Sam Atmore)                                                                                                          | Flutter Implementation                                                                              |
+|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| <video src="https://github.com/user-attachments/assets/7166f92b-144b-4fc7-9030-4874b96789d9" width="300" autoplay loop muted></video> | [![Watch Flutter Demo](https://img.youtube.com/vi/ljjWKTy7kM0/0.jpg)](https://youtu.be/ljjWKTy7kM0) |
 
-[//]: # (|--------------------------------|-----------------------------|  )
-
-[//]: # (| ![Original]&#40;demo/original.mp4&#41; | ![Flutter]&#40;demo/remade.mp4&#41; |  )
-
-[//]: # ()
-[//]: # (---)
+---
 
 ## 🚀 Getting Started
 
